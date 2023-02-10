@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    tools:context=".DeleteFoodActivtiy">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="Wedding Hall Login"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/wedid1"
+        android:hint="Registration ID"
+
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/fetch"
+        android:text="Fetch Details"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/dbfdet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/delfood"
+        android:text="Delete Entry"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"/>
+
+
+
+</LinearLayout>

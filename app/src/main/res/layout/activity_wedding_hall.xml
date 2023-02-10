@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="Register Wedding Hall"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/wedid"
+        android:hint="Wedding Hall ID"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/passwordw"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/repasswordw"
+        android:hint="Confirm Password"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/weddingname"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/phonew"
+        android:hint="Phone Number"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signupw"
+        android:text="Register"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/signinw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#02000000"
+        android:text="Already have an account?"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
